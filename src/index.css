@@ -123,6 +123,7 @@ body {
 }
 .showcase-text {
   height: 286px;
+  width: 750px;
   padding-left: 80px;
   padding-top: 138px;
 }
@@ -141,8 +142,6 @@ body {
 }
 
 .features {
-  position: absolute;
-  top: 830px;
   width:100%;
 } 
 .process {

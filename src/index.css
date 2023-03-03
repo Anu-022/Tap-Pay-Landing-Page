@@ -97,7 +97,7 @@ body {
  color: #fff; 
  margin-top: 40px;
 }
-.btn-cta:hover {
+.btn-cta:hover, .btn-agent:hover {
   color: #0c48b7;
   background-color: #fff;
   border: 1px solid #0c48b7;
@@ -353,6 +353,7 @@ text-align: center;
 .review-slider {
   margin-top: 52px;
   margin-bottom: 67px;
+  position: relative;
 }
 .client-review{
   width: 1173px;
@@ -363,6 +364,11 @@ text-align: center;
 }
 .review-text {
   width: 538px;
+}
+.comment {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
 }
 .client-name {
   padding-top: 48px;
@@ -382,7 +388,7 @@ text-align: center;
   border-bottom: 2px solid #393939;
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 10px;
   cursor: pointer;
   font-size: 20px;
   font-weight: 500;
@@ -475,3 +481,13 @@ text-align: center;
   width: 336px;
   padding-top: 24px;
 }
+
+.slider-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.slider-btns button {
+  border: none;
+  background: transparent;
+}
+

@@ -10,7 +10,6 @@ const ShowCase = () => {
                         <span className='text-highlight'> Seamless </span>
                         and 
                         <span className='text-highlight'> Flexible </span>
-                        <br />
                         Payment
                     </h1>
                    <p>Save and make payments with just a single magical tap.</p>

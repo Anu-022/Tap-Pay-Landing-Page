@@ -6,7 +6,7 @@
   
 }
 body {
-  width: 100%;
+  width: 100vw;
   font-family: 'Poppins', sans-serif;
 }
 .navbar {
@@ -21,7 +21,7 @@ body {
  
 }
 .branding {
-  padding-left: 119px;
+  padding-left: 80px;
 }
 .nav-list {
   display: flex;
@@ -55,7 +55,7 @@ body {
    left: 0;
 }
 .buttons {
-  padding-right: 100px; 
+  padding-right: 80px; 
 }
 .btn {
   width: 156px;
@@ -127,10 +127,9 @@ body {
   width: 744px;
   padding-left: 80px;
   padding-top: 138px;
-
 }
 .showcase-text h1 {
-  font-size: 58px;
+  font-size: 48px;
   font-weight: 600;
   color: #111;
   padding-bottom: 32px;
@@ -202,7 +201,7 @@ body {
 }
 .header-text {
   width: 350px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight:600px ;
   padding-bottom: 20px;
 }
@@ -339,7 +338,7 @@ text-align: center;
   padding-top: 147px;
   text-align: center;
   width: 1068px;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0 auto;
 }
 .agent-highlight {
@@ -366,7 +365,7 @@ text-align: center;
   width: 538px;
 }
 .comment {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 28px;
 }

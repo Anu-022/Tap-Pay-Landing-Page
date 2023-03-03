@@ -114,7 +114,6 @@ body {
 
 .showcase{
   background: #f8f8f8;
-  height: 741px;
   position: relative;
   width: 100%;
   
@@ -124,7 +123,6 @@ body {
 }
 .showcase-text {
   height: 286px;
-  width: 744px;
   padding-left: 80px;
   padding-top: 138px;
 }
@@ -132,7 +130,7 @@ body {
   font-size: 48px;
   font-weight: 600;
   color: #111;
-  padding-bottom: 32px;
+  padding-bottom: 20px;
 }
 .text-highlight {
   color: #0c48b7;

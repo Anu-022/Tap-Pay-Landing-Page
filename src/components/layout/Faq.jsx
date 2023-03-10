@@ -3,7 +3,6 @@ const Faq = () => {
     return (
         <div className="faq">
             <h4 className='heading'>
-                <span className='heading-line'></span>
                 FAQs
             </h4>
             <h2 className="header-text">Frequently asked questions</h2>

@@ -4,18 +4,17 @@ const Details = () => {
     return (
         <div className="details">
             <h4 className='heading'>
-                <span className='heading-line'></span>
                 Features
             </h4>
             <div className="details-text">
                 <h2 className="header-text">Enjoy multiple options at your fingertips.</h2>
-                <div className="details-info">
+                
                   <div className="horizontal-rule"></div> 
                   <p>Cashless policy? No worries we got you
                       <br/>
                       covered.
                   </p>
-                </div>
+            
             </div>
             
             <div className ="card-details">

@@ -8,6 +8,7 @@
 body {
   width: 100vw;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; 
 }
 .navbar {
   width: 100%;
@@ -16,17 +17,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
  
 }
 .branding {
-  padding-left: 80px;
+  padding-left: 119px;
 }
 .nav-list {
   display: flex;
-  width: 572px;
-  height: 39px;
+  width: 532px;
+  
   justify-content: space-between;
   
 }
@@ -122,17 +123,17 @@ body {
   display: flex;
 }
 .showcase-text {
-  height: 286px;
-  width: 800px;
   padding-left: 80px;
   padding-top: 100px;
 }
 .showcase-text h1 {
   font-size: 44px;
+  width: 500px;
   font-weight: 600;
   color: #111;
   padding-bottom: 20px;
 }
+
 .text-highlight {
   color: #0c48b7;
 }
@@ -143,9 +144,11 @@ body {
 
 .features {
   width:100%;
+  position: absolute;
+  top: 645px;
 } 
 .process {
-  padding-top: 400px;
+  padding-top: 300px;
   background-color: #f8f8f8;
   padding-left: 80px;
   padding-bottom: 180px;
@@ -153,19 +156,19 @@ body {
 .heading {
   position: relative;
   padding-left: 130px;
-  padding-bottom: 23px;
-  font-size: 20px
+  margin-bottom: 23px;
+  font-size: 23px
 }
-.heading-line::before {
-  content: " ";
-  display: block;
+.heading::before {
+  content: "";
   text-align: center;
   width: 100px;
   height: 8px;
   background: #fcbf4b;
   position: absolute;
-  left:0;
-  top:50%; 
+  left: 0;
+  bottom: 50%;
+   
 }
 .process-icon {
   display: block;
@@ -210,6 +213,7 @@ body {
 .benefits-listitem li {
   width: 300px;
   list-style: none;
+  line-height: 28px;
 }
 .bullets::before {
   content: "\2022";
@@ -230,9 +234,10 @@ body {
 
 }
 .horizontal-rule {
-  width: 400px;
+  width: 300px;
   height: 1px;
   background: #393939;
+  margin: 0 100px;
 }
 .details-info {
   display: flex;
@@ -486,4 +491,5 @@ text-align: center;
   border: none;
   background: transparent;
 }
+
 

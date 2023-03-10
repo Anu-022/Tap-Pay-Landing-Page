@@ -1,8 +1,7 @@
 const Benefits = () => {
     return (
         <div className="benefits">
-            <h4 className='heading'>
-                <span className='heading-line'></span>
+            <h4 className='heading'>       
                 Benefits
             </h4>
             <div className="benefits-text">

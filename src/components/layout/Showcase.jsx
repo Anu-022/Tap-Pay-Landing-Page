@@ -1,4 +1,4 @@
-import HeroImage from '../assets/hero.svg'
+import HeroImage from '../assets/heroImage.png'
 import Button from './Button';
 const ShowCase = () => {
     return (
@@ -10,13 +10,14 @@ const ShowCase = () => {
                         <span className='text-highlight'> Seamless </span>
                         and 
                         <span className='text-highlight'> Flexible </span>
+                        <br />
                         Payment
                     </h1>
                    <p>Save and make payments with just a single magical tap.</p>
                    <Button version="cta">Get Started</Button>
                 </div>
                 <div className="showcase-image">
-                   <img className= "hero-image" src={HeroImage} alt="woman-shopping"/>
+                   <img className= "hero-image" src={HeroImage} alt="woman-shopping" width="700px"/>
                 </div>
            </div>
         </div>
